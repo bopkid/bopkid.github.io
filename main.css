@@ -1,0 +1,81 @@
+body{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    background-color: rgb(32, 114, 87);
+    margin:0 auto;
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+section{
+    display: block;
+}
+
+.me-container{
+    text-align: center;
+    padding-left: 250px;
+    max-width: 600px;
+
+}
+.name-container{
+    position: fixed;
+    height: 100vh;
+    width: 37%;
+    text-align: right;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('./images/casey-horner-4rDCa5hBlCs-unsplash.jpg');
+    color: black;
+    font-size: 2em;
+
+}
+.about-container{
+    text-align: center;
+}
+
+
+
+.picture{
+    border-radius: 10px;
+    width: 500px;
+}
+
+
+
+.container{
+    display: flex;
+    
+}
+
+.link-container {
+    margin: 50px;
+    text-decoration: none;
+}
+.link-container a{
+    color: #333;
+    text-decoration: none;
+}
+
+.title{
+    font-size: 2em;
+}
+
+.skills{
+    display: inline-block;
+    width: 85px;
+    margin: 10px;
+    font-size: 1em;
+}
+
+.contact{
+    padding-top: 50px;
+}
+
+.name{
+    margin: 40px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.774);
+    font-size: 30px;
+    font-weight: bolder;
+}
