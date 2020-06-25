@@ -5,22 +5,27 @@ body{
     margin:0 auto;
     font-size:20px;
     font-family: 'Roboto', sans-serif;
-
+    
 }
 section{
     display: block;
 }
 
+
 .me-container{
     text-align: center;
-    padding-left: 250px;
-    max-width: 600px;
+    padding-left: 20px;
+    margin-right: 50px;
+    
+    border-bottom: 3px black solid;
 
 }
 .name-container{
+    border-right: 15px solid black;
+    box-shadow: 5px 5px black;
     position: fixed;
     height: 100vh;
-    width: 37%;
+    width: 35%;
     text-align: right;
     background-attachment: fixed;
     background-size: cover;
@@ -30,6 +35,7 @@ section{
 
 }
 .about-container{
+   box-shadow: 5px 5px;
     text-align: center;
 }
 
@@ -50,10 +56,23 @@ section{
 .link-container {
     margin: 50px;
     text-decoration: none;
+    padding-left: 80px;
 }
 .link-container a{
     color: #333;
     text-decoration: none;
+}
+
+
+.project-container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 3px solid black;
+}
+
+.skill-container{
+    border-bottom: 3px black solid;
+    margin-right: 50px;
 }
 
 .title{
@@ -69,6 +88,8 @@ section{
 
 .contact{
     padding-top: 50px;
+    text-align: center;
+ 
 }
 
 .name{
@@ -78,4 +99,8 @@ section{
     background-color: rgba(255, 255, 255, 0.774);
     font-size: 30px;
     font-weight: bolder;
+}
+
+.empty{
+    background-color: white;
 }
